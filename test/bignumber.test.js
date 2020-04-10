@@ -1,5 +1,7 @@
-const { expect } = require("chai");
+const { expect, use } = require("chai");
 const BigIntWrapper = require("../src/index");
+
+use(require("./helper"));
 
 describe("BigIntWrapper", () => {
   describe("increase()", () => {
