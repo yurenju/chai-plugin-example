@@ -1,4 +1,7 @@
-const { expect } = require("chai");
+const { expect, use } = require("chai");
+const assertHelper = require("./helper");
+
+use(assertHelper);
 
 describe("Built-in BigInt", () => {
   it("shall pass", () => {
